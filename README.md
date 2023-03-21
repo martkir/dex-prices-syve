@@ -28,9 +28,11 @@ Notes:
 
 # Examples
 
+Each one of the below examples is a cURL request but you can use any other client too. Just copy paste into your terminal. No API key needed.
+
 ### Example #1: Most Recent ENJ-USD Tick Price
 
-Query
+**Query**
 
 
     curl --location --request POST 'https://api.syve.ai/v1/prices_usd' \
@@ -53,7 +55,7 @@ Query
         ]
     }'
 
-Response
+**Response**
 
 
     {
@@ -139,7 +141,7 @@ Response
 
 ### Example #3: Most Recent Tick Price Multiple Tokens
 
-***Query***
+**Query**
 
 The following give you the latest 10 prices of both MATIC and LINK.
 
@@ -185,7 +187,7 @@ The following give you the latest 10 prices of both MATIC and LINK.
         ]
     }'
 
-Response
+**Response**
 
 
     {
@@ -214,7 +216,7 @@ Response
 
 ### Example #4: OHLC ENJ-USD Prices
 
-***Query***
+**Query**
 
     curl --location --request POST 'https://api.syve.ai/v1/prices_usd' \
     --header 'Content-Type: application/json' \
@@ -276,7 +278,7 @@ Response
         ]
     }'
 
-***Response***
+**Response**
 
 
     {
