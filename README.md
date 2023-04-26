@@ -26,6 +26,10 @@ Notes:
 - Token prices are given for every token traded in the top 3000 DEX pools.
 - Top DEX pools include Uniswap-V2, Uniswap-V3 and SushiSwap
 
+**Contact:**
+
+For any questions feel free to send me a DM on Twitter: https://twitter.com/martkiro
+
 # Examples
 
 Each one of the below examples is a cURL request but you can use any other client too. Just copy paste into your terminal. No API key needed.
